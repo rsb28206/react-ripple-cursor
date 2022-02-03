@@ -143,7 +143,7 @@ class Ripple extends React.Component<InitialProps, State> {
       marginLeft: -(size / 2),
       zIndex: 999,
       borderRadius: '100%',
-      border: `1.5px solid rgba(${colour[0]},${colour[1]},${colour[2]},0.8)`,
+      border: 'none',
       animationName: animation,
       animationTimingFunction: 'ease-out',
       animationDuration: animation === 'rippleFadeIn' ? '0.1s' : '0.1s',
