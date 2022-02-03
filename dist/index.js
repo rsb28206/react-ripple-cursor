@@ -119,7 +119,7 @@ var Ripple = /** @class */ (function (_super) {
             position: 'absolute',
             width: size,
             height: size,
-            background: "rgba(" + colour[0] + "," + colour[1] + "," + colour[2] + ",0.1)",
+            background: "rgba(" + colour[0] + "," + colour[1] + "," + colour[2] + ",0.2)",
             textAlign: 'center',
             marginTop: -(size / 2),
             marginLeft: -(size / 2),
